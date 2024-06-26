@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,td,th{
+            border: 3px dotted #000000;
+            width: 5px;
+            height: 1px;
+            border-collapse: collapse;
+        }
+        img{
+            height: 100px;
+        
+        }
+        .image{
+            height: 300px;
+            width: 400px;
+        }
+        .image1{
+            height: 300px;
+            width: 200px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>table</h1>
+    <table>
+<tr>
+    <td rowspan="2" colspan="2"><img class="image"src="../pictures/car.jpg"/></td>
+    <!-- <td><img src="../pictures/car.jpg" height="200" width="200"/></td> -->
+    <td><img src="../pictures/car.jpg" height="200" width="200"/></td>
+    
+    
+</tr>
+<tr>
+    <!-- <td><img src="../pictures/car.jpg" height="200" width="200"/></td>
+    <td><img src="../pictures/car.jpg" height="200" width="200"/></td> -->
+    <td><img src="../pictures/car.jpg" height="200" width="200"/></td>
+</tr>
+
+<tr>
+    <td colspan="1" rowspan="2"><img class="image1" src="../pictures/car.jpg" height="400" width="200"/></td>
+    <td colspan="2" rowspan="1"><img src="../pictures/car.jpg" height="200" width="400"/></td>
+    <!-- <td><img src="../pictures/car.jpg" height="200" width="200"/></td> -->
+    
+</tr>
+<tr>
+    <!-- <td><img src="../pictures/car.jpg" height="200" width="200"/></td>  -->
+     <!-- <td><img src="../pictures/car.jpg" height="200" width="200"/></td> -->
+    <td rowspan="1" colspan="2"><img src="../pictures/car.jpg" height="200" width="400"/></td> 
+    
+</tr>
+    </table>
+    
+</body>
+</html>
